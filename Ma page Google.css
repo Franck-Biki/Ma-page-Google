@@ -1,0 +1,152 @@
+/*.structure {
+    color: green;
+    display: flex;
+    flex-direction:row;
+}
+*/
+
+.haut {
+    
+    display: flex;
+    flex-direction:row;
+    padding: 1% 1% 1% 1%;
+}
+    /*.haut_separation {
+    display: flex;
+    flex-direction:row;
+    padding: 1% 1% 1% 1%;
+    }*/
+
+    .haut1 {
+        display: flex;
+        flex-direction:row;
+        /*padding: 0% 2% 0% 2%;*/
+        justify-content:left;
+    
+    }
+
+    .haut1_1 {
+        display: flex;
+        flex-direction:row;
+        width: 100px;
+        padding: 0% 2% 0% 2%;
+        justify-content:left;
+    }
+
+    .haut1_2 {
+        display: flex;
+        flex-direction:row;
+        width: 100px;
+        padding: 0% 2% 0% 2%;
+        justify-content:right;
+    }
+
+    .haut2 {
+        display: flex;
+        flex-direction:row;
+        width: 100em;
+        padding: 0% 1% 0% 1%;
+        justify-content:right;
+    }
+
+        .haut2_1 {
+            display: flex;
+            flex-direction:row;
+            padding: 0% 1% 0% 1%;
+            justify-content:right;
+        }
+
+        .haut2_2 {
+            display: flex;
+            flex-direction:row;
+            padding: 0% 1% 0% 1%;
+            justify-content:right;
+        }
+
+        .haut2_3 {
+            display: flex;
+            flex-direction:row;
+            justify-content:right;
+            position:relative;
+            bottom: 5px
+
+        }
+
+        .haut2_4 {
+            display: flex;
+            flex-direction:row;
+            justify-content:right;
+            position:relative;
+            bottom: 10px
+        }
+
+.centre {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+    .centre1 {
+    display:flex;
+    justify-content: center;
+    }
+
+    .centre2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .centre3 {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    top: 1000px;
+    
+    }
+
+        *.centre3_1 {
+            padding:1%;
+            margin: 0.5%;
+            background-color: rgb(247, 247, 247);
+            position: relative;
+            top: 1000px;
+        }
+
+        .centre3_2 {
+            padding:1%;
+            margin: 0.5%;
+            background-color: rgb(247, 247, 247);
+        }
+    
+
+
+.bas {
+    display:flex;
+    flex-direction:column;
+    background-color: rgb(240, 240, 240);
+}
+
+    .bas1 {
+        display: flex;
+        flex-direction: row;
+        padding: 1%;
+        justify-content: left;
+        position: relative;
+        left: 60px;
+        border-color: rgb(0, 0, 0);
+    }
+
+    .bas2 {
+        display: flex;
+        flex-direction: row;
+        padding: 1% 1% 1% 1%;
+        justify-content:center;
+    }
+
+    .bas3 {
+        display: flex;
+        flex-direction:row;
+        padding: 1% 1% 1% 1%;
+        justify-content: space-around;
+        
+    }
